@@ -1,0 +1,15 @@
+{
+  "name": "vitest-import-cjs-error-repro",
+  "devDependencies": {
+    "vite": "^5.4.10",
+    "vitest": "^2.1.4"
+  },
+  "dependencies": {
+    "example-deps": "file:example-deps/example-deps-0.0.0.tgz"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "test": "vitest"
+  }
+}
